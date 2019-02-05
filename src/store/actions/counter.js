@@ -32,7 +32,8 @@ export const asyncInc = createAction(ASYNC_INCREMENT, () => {
 export const AddItem = createAction(
 	ADD_ITEM,
 	item => item
-	// 加括号这样写 好像就是 直接return 因为是个函数 下面这个是return个对象 上面直接是return参数  简化了{} 这个函数体 好像明白了 因为对象的和函数体都是{} 所以加个括号表示返回的是对象
+	// 加括号这样写 好像就是 直接return 因为是个函数 下面这个是return个对象 上面直接是return参数  简化了{} 这个函数体 
+	// 好像明白了 因为对象的和函数体都是{} 所以加个括号表示返回的是对象
 	// item => ({
 	// 	item
 	// })

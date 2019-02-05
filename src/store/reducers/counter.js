@@ -70,5 +70,5 @@ export default handleActions({
   num: 0,
   asyncNum: 0,
   itme:"",
-  error:""
+  // error:""   // 从这里看 如果是数字的话必须初始化 如果不是的话 可以后面添加  好像有别的初始化方法 这个我再看看
 })
